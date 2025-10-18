@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agung Setiawan | Atlet Taekwondo.Web Developer.Organisasi.Mahasiswa.pencinta reptil</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loader"></div>
+    <h3>Memuat Portofolio...</h3>
+  </div>
+
+  <!-- Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">
+        <div class="logo">AS</div>
+        <div class="brand-text">
+          <div class="name">Agung Setiawan</div>
+          <div class="role">Atlet Taekwondo.Web Developer.Organisasi.Mahasiswa.pencinta reptil</div>
+        </div>
+      </div>
+
+      <button id="nav-toggle" class="nav-toggle">☰</button>
+      <ul id="nav-list" class="nav-list">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang Saya</a></li>
+        <li><a href="#prestasi">Prestasi</a></li>
+        <li><a href="#hobi">hobi</a></li>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="beranda" class="section hero reveal">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Halo, saya <span class="accent">Agung Setiawan</span></h1>
+        <p>Saya menggabungkan semangat seorang atlet dengan kreativitas seorang pengembang web.
+Bagi saya, setiap tantangan adalah kesempatan untuk tumbuh di arena maupun di dunia digital.</p>
+        <div class="hero-buttons">
+          <a href="#proyek" class="btn">Lihat Proyek</a>
+          <a href="#kontak" class="btn ghost">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="mkl.jpg" alt="Foto Agung Taekwondo">
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang Saya -->
+  <section id="tentang" class="section reveal">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah Agung Setiawan, seorang Atlet Taekwondo yang disiplin, bermental juara, dan berkomitmen tinggi.
+Di sisi lain, saya juga seorang Web Developer yang senang menciptakan solusi digital untuk membantu banyak orang.
+Saya aktif dalam organisasi kampus, belajar kepemimpinan dan kerja tim, serta memiliki hobi yang unik: merawat reptil karena dari mereka, saya belajar tentang ketenangan, kesabaran, dan keseimbangan.
+
+Saya percaya bahwa kesuksesan lahir dari kombinasi antara disiplin, kreativitas, dan ketulusan dalam setiap langkah.</p>
+
+      <ul class="biodata-list">
+        <li><b>Nama:</b> Agung Setiawan</li>
+        <li><b>Tempat/Tanggal Lahir:</b> Bandung, 19 april 2006</li>
+        <li><b>Universitas:</b> Universitas Kebangsaan Republik Indonesia</li>
+        <li><b>Alamat:</b> Jl. Rancagoong Indah No.8, Bandung</li>
+        <li><b>Whatsapp:</b> 083174655231</li>
+        <li><b>Email:</b> agungstwan212@gmail.com</li>
+        <li><b>Instagram:</b> agungstwn212</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Prestasi -->
+  <section id="prestasi" class="section reveal">
+    <div class="container">
+      <h2>Prestasi Taekwondo</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="tiga.jpg" alt="Juara 1 Kejurda" class="card-img">
+          <h3>🥇 Juara 1 Kejuaraan Daerah</h3>
+          <p>Bandung Barat — 2021</p>
+        </div>
+        <div class="card">
+          <img src="dua.jpg" alt="Juara Nasional" class="card-img">
+          <h3>🥇 Juara 1 Nasional</h3>
+          <p>Kejuaraan Nasional Taekwondo — 2022</p>
+        </div>
+        <div class="card">
+          <img src="satu.jpg" alt="Juara Provinsi" class="card-img">
+          <h3>🏅 Juara 1 Provinsi</h3>
+          <p>Kejuaraan Provinsi Jawa Barat — 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobi -->
+  <section id="hobi" class="section reveal">
+    <div class="container">
+      <h2>Hobi & Aktivitas</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="reptil.jpg" class="card-img">
+          <h3>Merawat Reptil</h3>
+          <p>Merawat reptil mengajarkan kesabaran dan ketelitian dalam memperhatikan makhluk unik penuh karakter.</p>
+        </div>
+        <div class="card">
+          <img src="fts.jpg" class="card-img">
+          <h3>Kegiatan Kampus</h3>
+          <p>Aktif di organisasi kemahasiswaan, mengembangkan kemampuan komunikasi dan kepemimpinan.</p>
+        </div>
+        <div class="card">
+          <img src="tdd.jpg" class="card-img">
+          <h3>Pelatihan Taekwondo</h3>
+          <p>Disiplin dan latihan rutin untuk meningkatkan kemampuan fisik dan mental menghadapi setiap pertandingan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyek -->
+  <section id="proyek" class="section reveal">
+    <div class="container">
+      <h2>Proyek Web</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Aplikasi Atlet Tracker</h3>
+          <p>Aplikasi pelacak latihan atlet untuk mengukur performa dan progres dengan visual interaktif.</p>
+          <div class="tags"><span>React</span> <span>Node.js</span></div>
+        </div>
+        <div class="card">
+          <h3>Website Portofolio Interaktif</h3>
+          <p>Menampilkan semangat atlet dan kreativitas developer dalam satu tampilan modern.</p>
+          <div class="tags"><span>HTML</span> <span>CSS</span> <span>Canvas</span></div>
+        </div>
+        <div class="card">
+          <h3>Dashboard Statistik Pelatihan</h3>
+          <p>Menampilkan data latihan menggunakan grafik dinamis dan visual analitik menarik.</p>
+          <div class="tags"><span>D3.js</span> <span>Data Viz</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="section reveal">
+    <div class="container">
+      <h2>Kontak Saya</h2>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Nama" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Pesan..." required></textarea>
+        <button type="submit" class="btn">Kirim</button>
+      </form>
+    </div>
+    <div class="card">
+          <p> Ingin berdiskusi, kolaborasi, atau sekadar menyapa?
+Jangan ragu untuk menghubungi saya melalui WhatsApp atau Email.
+Siapa tahu, dari percakapan kecil bisa lahir proyek besar.</p>
+          
+        </div>
+  </section>
+
+  <footer class="site-footer">© <span id="year"></span> Agung Setiawan</footer>
+
+  <!-- Toast -->
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+// === LOADING ANIMATION ===
+window.addEventListener("load", () => {
+  const loader = document.getElementById("loading-screen");
+  setTimeout(() => loader.style.display = "none", 1000);
+});
+
+// === NAVIGATION MOBILE ===
+const toggle = document.getElementById('nav-toggle');
+const nav = document.getElementById('nav-list');
+toggle.addEventListener('click', () => nav.classList.toggle('show'));
+
+// === YEAR FOOTER ===
+document.getElementById("year").textContent = new Date().getFullYear();
+
+// === SCROLL REVEAL ===
+const reveals = document.querySelectorAll(".reveal");
+function revealOnScroll() {
+  const triggerBottom = window.innerHeight * 0.85;
+  reveals.forEach((el) => {
+    const top = el.getBoundingClientRect().top;
+    if (top < triggerBottom) el.classList.add("show");
+  });
+}
+window.addEventListener("scroll", revealOnScroll);
+revealOnScroll();
+
+// === TOAST ===
+function showToast(msg) {
+  const toast = document.getElementById("toast");
+  toast.textContent = msg;
+  toast.classList.add("show");
+  setTimeout(() => toast.classList.remove("show"), 3000);
+}
+
+// === WHATSAPP & EMAIL ===
+document.getElementById("contactForm").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const name = e.target.name.value;
+  const email = e.target.email.value;
+  const message = e.target.message.value;
+
+  // kirim via WhatsApp
+  const phone = "6281234567890"; // ← ubah ke nomor kamu
+  const waUrl = `https://wa.me/${phone}?text=Halo, saya ${name} (${email})%0A${encodeURIComponent(message)}`;
+  window.open(waUrl, "_blank");
+
+  // kirim juga via mailto
+  const mailto = `mailto:agung@example.com?subject=Pesan dari ${name}&body=${message}`;
+  window.open(mailto);
+
+  showToast("Pesan berhasil dikirim via WhatsApp dan Email!");
+  e.target.reset();
+});
+
+// === BACKGROUND PARTICLES ===
+const canvas = document.getElementById("bg-canvas");
+const ctx = canvas.getContext("2d");
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+const particles = [];
+for (let i = 0; i < 80; i++) {
+  particles.push({
+    x: Math.random() * canvas.width,
+    y: Math.random() * canvas.height,
+    r: Math.random() * 2,
+    dx: (Math.random() - 0.5) * 0.8,
+    dy: (Math.random() - 0.5) * 0.8
+  });
+}
+
+function drawParticles() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "rgba(255,255,255,0.2)";
+  particles.forEach(p => {
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+    ctx.fill();
+    p.x += p.dx;
+    p.y += p.dy;
+    if (p.x < 0 || p.x > canvas.width) p.dx *= -1;
+    if (p.y < 0 || p.y > canvas.height) p.dy *= -1;
+  });
+  requestAnimationFrame(drawParticles);
+}
+drawParticles();
+
+window.addEventListener("resize", () => {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+});
+
+/* === RESET & BASE === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(120deg, #090909, #111);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* === LOADING SCREEN === */
+#loading-screen {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.loader {
+  width: 60px; height: 60px;
+  border: 6px solid rgba(255,255,255,0.2);
+  border-top: 6px solid #ff0066;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* === BACKGROUND CANVAS === */
+#bg-canvas {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: -1;
+  background: radial-gradient(circle at 30% 30%, #0f0f0f, #000);
+}
+
+/* === HEADER === */
+.site-header {
+  position: sticky;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  padding: 1rem 0;
+  z-index: 100;
+}
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.logo {
+  background: #ff0066;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px 14px;
+  border-radius: 10px;
+}
+.brand-text .name {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.brand-text .role {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* === NAVIGATION === */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-list a:hover {
+  color: #ff0066;
+}
+.nav-toggle {
+  display: none;
+}
+
+/* === HERO === */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  padding: 100px 0;
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  align-items: center;
+  gap: 2rem;
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+.hero-text p {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.accent { color: #ff0066; }
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.hero-img img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  border: 3px solid #ff0066;
+  box-shadow: 0 0 20px rgba(255, 0, 102, 0.2);
+}
+
+/* === BUTTON === */
+.btn {
+  background: #ff0066;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background: #ff3385;
+  transform: translateY(-3px);
+}
+.btn.ghost {
+  background: transparent;
+  border: 2px solid #ff0066;
+}
+
+/* === SECTION === */
+.section {
+  padding: 80px 0;
+  text-align: center;
+}
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  position: relative;
+}
+.section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ff0066;
+  margin: 12px auto 0;
+}
+
+/* === CARDS === */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 25px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-5px);
+}
+.card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* === BIODATA === */
+.biodata-list {
+  list-style: none;
+  margin-top: 1rem;
+  color: #ccc;
+  text-align: left;
+  max-width: 500px;
+  margin-inline: auto;
+}
+.biodata-list li {
+  margin-bottom: 8px;
+}
+
+/* === TOAST === */
+.toast {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #222;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.4s, transform 0.4s;
+  pointer-events: none;
+  z-index: 9999;
+}
+.toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-10px);
+}
+
+/* === FOOTER === */
+.site-footer {
+  background: #111;
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+  .nav-list {
+    flex-direction: column;
+    position: absolute;
+    background: rgba(0,0,0,0.9);
+    top: 60px;
+    right: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    display: none;
+  }
+  .nav-list.show {
+    display: flex;
+  }
+  .hero {
+    text-align: center;
+  }
+  .hero-buttons { justify-content: center; }
+}
+
+/* === SCROLL REVEAL === */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-out;
+}
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
